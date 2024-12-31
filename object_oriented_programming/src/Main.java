@@ -19,6 +19,10 @@ public class Main {
 		car1.drive();
 		System.out.print("Car 2: ");
 		car2.brake();
+		System.out.println();
+		
+		// Print car object using toString method implicitly
+		System.out.println("Car 1: " + car1);
 
 	}
 

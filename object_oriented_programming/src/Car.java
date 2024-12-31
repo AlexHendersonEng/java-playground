@@ -37,4 +37,12 @@ public class Car {
 		System.out.println(this.make + " braking!");
 	}
 	
+	// Overloaded methods
+	public String toString() {
+		// All objects inherit a toString method by default which will
+		// return a string with the memory location of the object.
+		return this.make + " " + this.model + " " + this.year + " "
+				+ this.colour + " £" + this.price;
+	}
+	
 }
